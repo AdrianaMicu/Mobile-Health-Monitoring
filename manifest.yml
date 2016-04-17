@@ -1,0 +1,11 @@
+applications:
+- services:
+  - Internet of Things-p1
+  - MQTTBridge-cloudantNoSQLDB
+  disk_quota: 1024M
+  host: mobilehealthmonitoring
+  name: mobilehealthmonitoring
+  path: build/libs/MobileHealthMonitoring.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
